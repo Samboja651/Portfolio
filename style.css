@@ -30,7 +30,7 @@ nav ul{
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     flex-grow: 1;
     
 }
@@ -50,6 +50,7 @@ nav ul li a{
 
 nav ul li:hover{
     background-color: var(--effects);
+    transition: 0.5s;
 }
 
 /* section1 About me */
@@ -71,6 +72,7 @@ nav ul li:hover{
     flex-wrap: wrap;
     flex-shrink: 1;
 }
+
 .intro{
     width: 420px;
     margin: auto;
@@ -128,9 +130,11 @@ h1{
 }
 
 /* project3 */
+
 .project3 div{
     display: flex;
     flex-shrink: 1;
+
 }
 .project3 div img{
     width: 597px;
@@ -145,13 +149,16 @@ h1{
 }
 
 /* Section3 Resume */
+#resume div{
+    text-align: center;
+}
 .resume2{
     height: 365px;
 }
 #resume div img{
     width: 500px;
 }
-.linkresume{
+.linkresume, a.problema, a.atm, a.ROW{
     color: var(--effects);
     font-style: italic;
 }
@@ -168,4 +175,7 @@ footer div{
     color: var(--text);
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 15px;
+}
+hr{
+    color: var(--effects);
 }
