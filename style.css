@@ -1,0 +1,49 @@
+html{
+    --text: white;
+    --body: #1E2D2F;
+    --effects: #FFB7C3;
+}
+
+/* header */
+header{
+    background-color: var(--body);
+    padding: 5px;
+    border-radius: 6px;
+}
+/* text styling */
+nav ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* layout */
+nav ul{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-grow: 1;
+    
+}
+
+nav ul li{
+    border: 2px solid grey;
+    border-radius: 5px;
+    width: 70px;
+    text-align: center;
+    background-color: var(--body);
+    padding: 5px;
+}
+nav ul li a{
+    color: var(--text);
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+nav ul li:hover{
+    background-color: var(--effects);
+}
+
+/* section1 About me */
