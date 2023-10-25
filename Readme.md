@@ -6,4 +6,5 @@
 - Inserted links to my projects
 - Displayed a preview and brief description of my projects.
 ## Challenges
--
+- making portfolio responsive to different screen sizes
+- Above is now a TODO
