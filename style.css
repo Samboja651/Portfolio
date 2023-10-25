@@ -3,12 +3,16 @@ html{
     --body: #1E2D2F;
     --effects: #FFB7C3;
 }
+body{
+    background-color: var(--body);
+}
 
 /* header */
 header{
     background-color: var(--body);
     padding: 5px;
     border-radius: 6px;
+    margin-bottom: 10px;
 }
 /* text styling */
 nav ul{
@@ -47,3 +51,35 @@ nav ul li:hover{
 }
 
 /* section1 About me */
+/* width 10 height 11 */
+/* setting the image size */
+.myphoto{
+    width: 400px;
+    height: 411px;
+    padding: 5px;
+}
+#About .photo1{
+    border: 2px solid grey;
+    border-radius: 5px;
+    width: 420px;
+    text-align: center;
+}
+#About{
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+}
+.intro{
+    width: 420px;
+    margin: auto;
+    color: var(--text);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 15px;
+}
+.intro h1{
+    color: var(--effects);
+    line-height: 1.4;
+
+}
+
+/* section2 projects */
