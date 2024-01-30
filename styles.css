@@ -179,3 +179,12 @@ footer div{
 hr{
     color: var(--effects);
 }
+
+.linkedin{
+    width: 70px;
+    margin-left: 40%;
+}
+.github{
+    width: 80px;
+    margin-left: 10%;  
+}
