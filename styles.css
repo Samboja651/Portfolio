@@ -58,7 +58,7 @@ nav ul li:hover{
 /* setting the image size */
 .myphoto{
     width: 400px;
-    height: 411px;
+    /* height: 360px; */
     padding: 5px;
 }
 #About .photo1{
