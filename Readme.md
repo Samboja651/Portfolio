@@ -1,4 +1,4 @@
-# Portfolio
+# [Portfolio](https://samboja651.github.io/Portfolio/)
 ## Design and Development
 - Used HTML5 and css
 - generated a color palette from coolors webpage
@@ -7,4 +7,3 @@
 - Displayed a preview and brief description of my projects.
 ## Challenges
 - making portfolio responsive to different screen sizes
-- Above is now a TODO
